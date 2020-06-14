@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>TIMEPIECE</title>
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      body {
+        background-image: url("https://il8.picdn.net/shutterstock/videos/3498692/thumb/1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .about {
+        margin: 5%;
+      }
+      .about h1 {
+        color: white;
+      }
+
+      .mec {
+        background-image: url("https://i.ytimg.com/vi/lnTlYZ1JhM8/maxresdefault.jpg");
+        background-position: left;
+        background-size: 50% 60%;
+
+        background-repeat: no-repeat;
+      }
+
+      .header {
+        background-color: rgba(0, 0, 0, 0.4);
+        color: wheat;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <br />
+      <br />
+      <span
+        id="span"
+        style="font-size: 30px; cursor: pointer;"
+        onclick="openNav()"
+        >&#9776; MENU</span
+      >
+      <h1 style="font-size: 50px;">
+        TIMEPIECE
+        <div class="btns" style="text-align: right; margin-right: 33px;">
+          <button
+            style="
+              border: 0;
+              padding: 7px;
+              font-size: medium;
+              cursor: pointer;
+              background: transparent;
+              color: inherit;
+            "
+            onclick="location.href='log_in.html'"
+          >
+            LOG IN
+          </button>
+
+          <button
+            style="
+              border: 0;
+              padding: 7px;
+              font-size: medium;
+              cursor: pointer;
+              background: none;
+              color: inherit;
+            "
+            onclick="location.href='signup.html'"
+          >
+            SIGN UP
+          </button>
+        </div>
+      </h1>
+    </div>
+    <div id="mynav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <ul>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="c.php">SHOP NOW</a></li>
+
+        <li><a href="cart.php">CART</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+      </ul>
+    </div>
+
+    <div class="about">
+      <h1 style="font-size: 50px;">
+        <p><em>About us</em></p>
+      </h1>
+      <h2 style="font-size: 30px;">
+        We, at Timpiece are keen on providing an experience of a lifetime to
+        you. How'd we do that? By offering you the best pre-owned watches
+        available at unbeatable price.
+      </h2>
+
+      <div class="mec">
+        <br />
+        
+        <div style="margin-left: 705px; position: relative;">
+          <h2>
+            the mechanism of a watch or timepiece which encloses and protects
+            the movement, and the face, which displays the time. The term
+            originated with mechanical timepieces, whose clockwork movements are
+            made of many moving parts. It is less frequently applied to modern
+            electronic or quartz timepieces, where the word module is often used
+            instead. In modern mass-produced clocks and watches, the same
+            movement is often inserted into many different styles of case. When
+            buying a quality pocketwatch from the mid-19th to the mid-20th
+            century, for example, the customer would select a movement and case
+            individually. Mechanical movements get dirty and the lubricants dry
+            up, so they must periodically be disassembled, cleaned, and
+            lubricated. One source recommends servicing intervals of: 3–5 years
+            for watches, 15–20 years for grandfather clocks, 10–15 years for
+            wall or mantel clocks, 15–20 years for anniversary clocks, and 7
+            years for cuckoo clocks, with the longer intervals applying to
+            antique timepieces.
+          </h2>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+        <h1 style="font-size: 50px;">
+          <p><em>Spend Less</em></p>
+        </h1>
+        
+        <h2 style="font-size: 30px;">
+          With Timepiece's pre-owned collection, not only can you spend less,
+          you can reap from your investments, too. A pre-owned watch doesn’t
+          have the sting of showroom depreciation, and can even increase in
+          value over the years.
+        </h2>
+      </div>
+      <br />
+      <br />
+    </div>
+
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>

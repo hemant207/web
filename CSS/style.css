@@ -1,0 +1,248 @@
+/* -----------heading------------*/
+header {
+  background-color: indigo;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-bottom: 5px;
+}
+
+#span {
+  float: left;
+  cursor: pointer;
+}
+
+span h4 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+/* -----------for navigation menu------------*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#mynav {
+  text-align: center;
+}
+
+#mynav ul {
+  list-style: none;
+  margin-top: 10%;
+}
+
+#mynav ul li {
+  margin: 20px;
+  font-size: xx-large;
+}
+
+a {
+  display: block;
+  color: #818181;
+}
+
+a:hover,
+a:focus {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  float: right;
+  margin-top: 2%;
+  margin-right: 5%;
+  font-size: xx-large;
+}
+
+.one .header:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  transition: 1s;
+}
+
+h1 {
+  font-size: 42px;
+  margin-left: 41%;
+  margin-bottom: 3%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 40px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  padding: 15px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 11px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+video {
+  position: relative;
+  width: 100%;
+}
+
+/*-------making responsive--------*/
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  span h4 {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+}
+
+
+.one {
+  position: relative;
+  margin: 0;
+  width: fit-content;
+}
+
+#log-submit{
+  font-size: 8px;
+}
+
+.one .header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: white;
+}
+
+/*---------account page---------------*/
+
+input {
+  width: 50%;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: 0;
+  border-bottom: 0.2px solid steelblue;
+  background: transparent;
+}
+
+input:focus {
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-size: x-large;
+  color: gray;
+  border-bottom: 1px solid black;
+}
+
+.form {
+  margin-top: 55%;
+  margin-left: 30%;
+}
+
+.signup_form {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  overflow: scroll;
+  background-color: white;
+  padding-top: 50px;
+}
+
+.signup_form form {
+  margin-top: 6%;
+  margin-left: 30%;
+}
+label {
+  font-size: large;
+  font-weight: bold;
+}
+
+#btn {
+  border: 1px;
+}
+
+#btn:hover {
+  border: 1px solid blue;
+  font-size: x-large;
+}
+
+input[type="number"],
+input[type="number"]:hover {
+  border: 0.2px solid black;
+  font-size: medium;
+  width: 15%;
+  color: #000;
+  margin-right: 30px;
+}
+

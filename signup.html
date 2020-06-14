@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>TIMEPIECE</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      body {
+        background-image: url("http://1000logos.net/wp-content/uploads/2017/05/Rolex-logo-500x354.png");
+        background-position: right;
+        background-repeat: no-repeat;
+      }
+      .s_page {
+        padding-left: 10%;
+      }
+    </style>
+  </head>
+
+  <body id="ac_page">
+    <div class="header">
+      <span
+        id="span"
+        style="font-size: 30px; cursor: pointer;"
+        onclick="openNav()"
+        >&#9776; MENU</span
+      >
+      <h1>
+        TIMEPIECE
+      </h1>
+    </div>
+    <div id="mynav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <ul>
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="c.php">SHOP NOW</a></li>
+
+        <li><a href="cart.php">CART</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+      </ul>
+    </div>
+
+    <div class="s_page">
+      <form method="POST" action="sign_up.php">
+        <label>Name</label><br />
+        <input
+          type="text"
+          name="s_uname"
+          placeholder="Enter Username"
+          required
+        /><br />
+
+        <label>Surname</label><br />
+        <input type="text" name="s_sname" placeholder="Enter Surname" /><br />
+
+        <label>Password</label><br />
+        <input
+          type="password"
+          name="s_pass"
+          placeholder="Enter Password"
+          required
+        /><br />
+
+        <div class="r_field">
+          <label>Conformed-Password</label><br />
+          <input
+            type="password"
+            name="s_cpass"
+            placeholder="Retype Password"
+            required
+          />
+          <br />
+        </div>
+
+        <label>E-mail</label><br />
+        <input
+          type="email"
+          name="s_email"
+          placeholder="Enter E-mail"
+          required
+        /><br />
+
+        <label>ADDRESS</label><br />
+        <input
+          type="text"
+          name="address"
+          placeholder="Enter address"
+          required
+        /><br />
+
+        <div class="r_field">
+          <label>Postcode</label><br />
+          <input
+            type="text"
+            name="postcode"
+            placeholder="Enter Postcode"
+            required
+          /><br />
+        </div>
+
+        <input type="submit" id="btn" name="s_submit" value="submit" /><br />
+      </form>
+      <br />
+    </div>
+
+    <script src="JS/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>
